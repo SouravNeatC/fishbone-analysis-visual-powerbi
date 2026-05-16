@@ -1,8 +1,6 @@
 # 🐟 Fishbone Analysis — Power BI Custom Visual
 
-A custom Fishbone (Ishikawa) Analysis visual built for Power BI using TypeScript + D3.js.
-
-This visual enables structured root cause analysis by organizing causes into a fishbone diagram.
+🚀 A high-performance, fully dynamic Fishbone Analysis visual for Power BI, enabling deep root cause analysis with enterprise-grade scalability, interactivity, and modern UX.
 
 ## 🚀 Overview
 
