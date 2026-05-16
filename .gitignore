@@ -1,0 +1,11 @@
+node_modules/
+.tmp/
+.claude/
+*.log
+webpack.statistics.*
+webpack.statistics.prod.html
+.DS_Store
+Thumbs.db
+
+# Local editor overrides (shared .vscode config is committed)
+.vscode/*.code-workspace

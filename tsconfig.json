@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "ES2015",
+        "module": "node16",
+        "sourceMap": true,
+        "outDir": "./.tmp/build/",
+        "rootDir": ".",
+        "moduleResolution": "node16",
+        "skipLibCheck": true,
+        "declaration": true,
+        "lib": [
+            "ES2015",
+            "DOM"
+        ]
+    },
+    "files": [
+        "src/visual.ts",
+        "src/settings.ts"
+    ]
+}

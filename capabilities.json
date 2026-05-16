@@ -1,0 +1,255 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Main Cause (Category)",
+            "name": "mainCause",
+            "kind": "Grouping",
+            "description": "Main fishbone categories, such as People, Methods, Materials, Equipment."
+        },
+        {
+            "displayName": "Sub-Cause",
+            "name": "subCause",
+            "kind": "Grouping",
+            "description": "Cause labels that appear inside the fishbone chevrons."
+        },
+        {
+            "displayName": "Tooltips",
+            "name": "tooltips",
+            "kind": "Measure",
+            "description": "Optional measures to show in the Power BI tooltip."
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "categories": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "mainCause"
+                            }
+                        },
+                        {
+                            "bind": {
+                                "to": "subCause"
+                            }
+                        }
+                    ],
+                    "dataReductionAlgorithm": {
+                        "top": {
+                            "count": 1000
+                        }
+                    }
+                },
+                "values": {
+                    "select": [
+                        {
+                            "for": {
+                                "in": "tooltips"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "objects": {
+        "fishboneSettings": {
+            "properties": {
+                "effectText": {
+                    "type": {
+                        "text": true
+                    }
+                },
+                "showTitle": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "backgroundColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "spineColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "spineThickness": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "headColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "tailColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "fontSize": {
+                    "type": {
+                        "formatting": {
+                            "fontSize": true
+                        }
+                    }
+                },
+                "fontFamily": {
+                    "type": {
+                        "text": true
+                    }
+                },
+                "fontColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "categoryFontSize": {
+                    "type": {
+                        "formatting": {
+                            "fontSize": true
+                        }
+                    }
+                },
+                "effectFontSize": {
+                    "type": {
+                        "formatting": {
+                            "fontSize": true
+                        }
+                    }
+                },
+                "boneOpacity": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "showShadow": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "enableBoneColorOverride": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "boneFillColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "boneStrokeColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "categoryColorMapping": {
+                    "type": {
+                        "text": true
+                    }
+                },
+                "autoGenerateCategoryColors": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "needleLineColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "categoryTextColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "effectTextColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "titleTextColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "dataPoint": {
+            "displayName": "Data colors",
+            "properties": {
+                "fill": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "tooltips": {
+        "supportedTypes": {
+            "default": true,
+            "canvas": true
+        },
+        "roles": [
+            "tooltips"
+        ]
+    },
+    "supportsHighlight": true,
+    "supportsKeyboardFocus": true,
+    "supportsMultiVisualSelection": true,
+    "supportsLandingPage": true,
+    "privileges": []
+}

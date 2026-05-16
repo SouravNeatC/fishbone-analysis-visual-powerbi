@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"Sourav Das","email":"heysouravdas@gmail.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/FishboneAnalysisXXXXXXXXXXXXXXXXXXXX.pbiviz.json"
+			}
+		],
+		"visual": {"name":"FishboneAnalysis","displayName":"Fishbone Analysis","guid":"FishboneAnalysisXXXXXXXXXXXXXXXXXXXX","visualClassName":"Visual","version":"1.0.0.0","description":"Fishbone (Ishikawa) diagram for root cause analysis in Power BI","supportUrl":"https://community.powerbi.com","gitHubUrl":"https://github.com/souravdas/fishbone-analysis-visual"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

@@ -1,0 +1,37 @@
+{
+  "name": "fishbone-analysis-visual",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Power BI Fishbone Analysis custom visual",
+  "author": {
+    "name": "Sourav Das",
+    "email": "heysouravdas@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/souravdas/fishbone-analysis-visual.git"
+  },
+  "bugs": {
+    "url": "https://github.com/souravdas/fishbone-analysis-visual/issues"
+  },
+  "homepage": "https://github.com/souravdas/fishbone-analysis-visual#readme",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "powerbi-visuals-api": "~5.3.0",
+    "powerbi-visuals-utils-formattingmodel": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "eslint-plugin-powerbi-visuals": "^1.0.0",
+    "less": "^4.2.0",
+    "powerbi-visuals-tools": "^5.3.0",
+    "typescript": "^5.1.0"
+  }
+}

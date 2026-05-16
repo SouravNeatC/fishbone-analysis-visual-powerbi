@@ -1,0 +1,44 @@
+/* Fishbone Analysis Visual - v2 Production Styling */
+.fishbone-svg {
+    overflow: hidden;
+}
+
+.fishbone-root text {
+    user-select: none;
+    pointer-events: none;
+}
+
+.fishbone-chevron path {
+    transition: opacity 160ms ease, filter 160ms ease;
+}
+
+.fishbone-chevron:hover path {
+    opacity: 1 !important;
+}
+
+.fishbone-chevron:focus {
+    outline: 2px solid #0078D4;
+    outline-offset: 2px;
+}
+
+.fishbone-chevron:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.fishbone-head,
+.fishbone-tail {
+    pointer-events: none;
+}
+
+
+.fishbone-chevron:focus path,
+.fishbone-chevron:focus-visible path {
+    stroke: #0078D4;
+    stroke-width: 3;
+    opacity: 1;
+}
+
+.fishbone-chevron:focus {
+    outline: none;
+}
+
