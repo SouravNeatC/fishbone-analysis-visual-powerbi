@@ -167,7 +167,7 @@ fishbone-analysis-visual/
 
 ## ⚙️ Setup & Development
 
-> **Note:** `pbiviz.json` uses a placeholder visual GUID (`FishboneAnalysisXXXXXXXXXXXXXXXXXXXX`). Before distributing your own build (especially to AppSource), generate a unique GUID with `pbiviz new` or the Power BI visuals tools and update `pbiviz.json`.
+> **Note:** According to latest development of this visual `pbiviz.json` uses a placeholder visual GUID (`FishboneAnalysisXXXXXXXXXXXXXXXXXXXX`). Before distributing my own build (especially to AppSource),I will generate a unique GUID with `pbiviz new` or the Power BI visuals tools and update `pbiviz.json`.
 
 ### Install dependencies
 
