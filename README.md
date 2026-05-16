@@ -204,7 +204,6 @@ Re-run `npm run package` after code changes to refresh the file in `dist/`.
 ## 📥 Download
 
 👉 [Download pre-built visual](dist/FishboneAnalysisXXXXXXXXXXXXXXXXXXXX.1.0.0.0.pbiviz)  
-Or grab the latest `.pbiviz` from [GitHub Releases](https://github.com/souravdas/fishbone-analysis-visual/releases) (when published).
 
 ## Usage in Power BI
 
