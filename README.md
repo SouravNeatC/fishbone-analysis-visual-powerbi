@@ -19,21 +19,21 @@ This visual is developed using:
 
 ## 📸 Visual Preview
 
-### ✅ Fishbone Example 1
+### Fishbone Example 1
 
 ![Fishbone Example 1](assets/screenshots/fishbone-1.png)
 
-### ✅ Fishbone Example 2
+### Fishbone Example 2
 
 ![Fishbone Example 2](assets/screenshots/fishbone-2.png)
 
-### ✅ Fishbone Example 3
+### Fishbone Example 3
 
 ![Fishbone Example 3](assets/screenshots/fishbone-3.png)
 
 ## ✨ Features
 
-### ✅ Dynamic Fishbone Layout
+### Dynamic Fishbone Layout
 
 Automatically adjusts based on:
 
@@ -42,7 +42,7 @@ Automatically adjusts based on:
 
 Supports small to large datasets (up to 1000 rows)
 
-### ✅ Interactive Capabilities
+### Interactive Capabilities
 
 - **Hover** → Tooltip display
 - **Click** → Category selection
@@ -51,7 +51,7 @@ Supports small to large datasets (up to 1000 rows)
 - **Zoom & Pan** support
 - **Double-click** to reset zoom
 
-### ✅ Smart Color System
+### Smart Color System
 
 Supports 3 levels of color logic:
 
@@ -63,7 +63,7 @@ Optional:
 
 - Global color override toggle
 
-### ✅ Advanced Formatting
+### Advanced Formatting
 
 Full control from Power BI Format Pane:
 
@@ -80,7 +80,7 @@ Full control from Power BI Format Pane:
 | Color Mapping | Manual category colors |
 | Override Mode | Single color mode |
 
-### ✅ Clean UX
+### Clean UX
 
 - No tooltip duplication
 - Zoom reset animation on double-click
@@ -115,7 +115,7 @@ Material,Low Quality Input
 Method,Inefficient Workflow
 ```
 
-## 🧠 How It Works
+## How It Works
 
 ### Data Flow
 
@@ -206,7 +206,7 @@ Re-run `npm run package` after code changes to refresh the file in `dist/`.
 👉 [Download pre-built visual](dist/FishboneAnalysisXXXXXXXXXXXXXXXXXXXX.1.0.0.0.pbiviz)  
 Or grab the latest `.pbiviz` from [GitHub Releases](https://github.com/souravdas/fishbone-analysis-visual/releases) (when published).
 
-## 📦 Usage in Power BI
+## Usage in Power BI
 
 1. Import `.pbiviz` file
 2. Add visual to report
@@ -216,19 +216,11 @@ Or grab the latest `.pbiviz` from [GitHub Releases](https://github.com/souravdas
    - **Tooltips** → Optional
 4. Configure settings from Format Pane
 
-## ⚠️ Known Behavior
+## Known Behavior
 
 - Problem/Outcome text is controlled via format pane, not dataset
 - Supports 2-level hierarchy (Category → Sub-cause)
 
-## ✅ Pre-publish Checklist
-
-- [ ] Visual loads without error in Power BI Desktop
-- [ ] Tooltips and selection work per category
-- [ ] Colors and bone override behave as expected
-- [ ] Zoom, pan, and double-click reset work smoothly
-- [ ] Layout scales across small and large category counts
-- [ ] No overlapping text at common report sizes
 
 ## 🧪 Sample Report
 
@@ -237,7 +229,7 @@ A sample Power BI report demonstrating the visual:
 👉 [Download sample .pbix file](sample.pbix)
 
 
-## 💼 Business Use Cases
+## Business Use Cases
 
 - Manufacturing defect analysis
 - Root cause analysis in QA process
@@ -246,7 +238,7 @@ A sample Power BI report demonstrating the visual:
 
 
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Data-driven problem field
 - Multi-level drilldown
@@ -254,7 +246,7 @@ A sample Power BI report demonstrating the visual:
 - Export as image feature
 - AppSource publishing
 
-## 👨‍💻 Author
+## Author
 
 **Sourav Das**  
 Analyst — Data & AI
@@ -263,11 +255,11 @@ Analyst — Data & AI
 
 This project is licensed under the [MIT License](LICENSE).
 
-## ⭐ Final Notes
+## Final Notes
 
 This project demonstrates:
 
-- ✅ Advanced D3 integration in Power BI
-- ✅ Dynamic visual rendering logic
-- ✅ Real-world business use case
-- ✅ Production-ready custom visual architecture
+- Advanced D3 integration in Power BI
+- Dynamic visual rendering logic
+- Real-world business use case
+- Production-ready custom visual architecture
